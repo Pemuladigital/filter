@@ -1,57 +1,24 @@
-.wrapper {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(247, 247, 247, 1);
-}
-
-.TitleWrapper {
-    width: 100%;
-    height: 246px;
-    top: 0px;  
-    background: linear-gradient(180deg, #2A7CCE 32.29%, #004DA9 100%);
-    box-shadow: 0px 12px 29px rgba(0, 0, 0, 0.25);
-    border-radius: 0px 0px 146px 146px; 
-}
-
-.TitleWrapper > h1 {
-position: absolute;
-width: 100%;
-top: 159px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 60px;
-line-height: 73px;
-text-align: center;
-color: #FFFFFF;
-text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
-}
-
-.FilterWrapper {
-    width: 100%;
-    display: block;
-}
-.Filter {
-    color: #fff;
+.filter1 {
     width: 20%;
-    margin-bottom: 15px;
+    height: 100%;
+    margin-top: 10px;
     margin-left: 50px;
     padding-left: 30px;
     padding-top: 26px;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
     background: linear-gradient(180deg, #2A7CCE 0%, #004DA9 100%);
     border-radius: 40px;
 }
 
-.Filter > p {
+.filter1 > p {
+    color: #fff;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-right: 30px;
     padding-bottom: 10px;
     border-bottom: 4px solid rgba(254, 198, 25, 1);
 }
-
 .container {
     display: block;
     position: relative;
@@ -118,41 +85,4 @@ text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-}
-
-.ContentWrapper {
-    width: 100%;
-    display:flex;
-    margin-top: 70px;
-}
-
-.ResultsWrapper {
-    background-color: rgba(247, 247, 247, 1);
-    position: absolute;
-    width: 897px;
-    margin-left: 443px;
-    height: 100%;
-    
-}
-
-.InfoWrapper {
-    background-color: rgba(217, 217, 217, 0.2);
-    border-radius: 42px;
-    padding: 15px 0 15px 110px;   
-    margin-bottom: 25px;
-    box-shadow: 2px 5px 10px rgba(52, 52, 52, 0.2);
-}
-
-.ResultTitle {
-    font-weight: bold;
-    Font-size: 18px ;
-    margin-bottom: 10px;
-}
-
-.Pict {
-    position: absolute;
-    width: 75px;
-    height: 116px;
-    background-color: orange;
-    border-radius: 42px 0 0 42px;
 }
