@@ -91,7 +91,7 @@ function FindScholarships() {
               <div className="Pict"></div>
               <div className="InfoWrapper">
                 <div className="ResultTitle">
-                  <Link to ="./Scholarship" className="ScholarPage">QUIPPER SCOLARSHIP AWARD</Link>
+                  <Link to ="/Scholarship" className="ScholarshipLink">QUIPPER SCOLARSHIP AWARD</Link>
                 </div>
                 <div className="ResultType">Beasiswa non-Akademik</div>
                 <div className="ResultDate">Pendaftaran 3 Januari-18 Maret 2022</div>
