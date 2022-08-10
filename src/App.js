@@ -12,7 +12,8 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={FindScholarships}/>
-        <Route path='/Scholarship' component={Scholarship}/>
+        <Route path='/Scholarship' exact component={Scholarship}/>
+        <Route path='/FindScholarships' exact component={FindScholarships}/>
       </Switch>
     </Router>
 
